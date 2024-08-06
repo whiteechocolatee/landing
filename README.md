@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# README
 
-## Getting Started
+## Навигация
 
-First, run the development server:
+1. [Архитектура](#архитектура)
+2. [Технологии](#технологии)
+3. [TODO](#todo)
+4. [Установка и Запуск](#установка-и-запуск)
+5. [Ссылка на проект](#ссылка-на-проект)
+
+## Архитектура
+
+Проект организован следующим образом:
+- **app**: Основные файлы приложения, включая глобальные стили и макет.
+- **components**: Папка, содержащая все компоненты приложения. Включает в себя:
+  - `button`
+  - `dignities`
+  - `faq`
+  - `footer`
+  - `header`
+  - `help`
+  - `hero`
+  - `prices`
+  - `services`
+  - `slider-nav`
+  - `steps-slider`
+  - `title-badge`
+  - `whyus`
+- **constants**: Папка с файлом `index.ts`, содержащим константы.
+- **context**: Папка с файлом `slider-context.tsx`, содержащим контекст для слайдера.
+- **public**: Публичные файлы, такие как шрифты и изображения.
+
+## Технологии
+
+В проекте используются следующие технологии:
+- **Next.js 14.2.5**: Фреймворк для React-приложений.
+- **React 18**: Библиотека для создания пользовательских интерфейсов.
+- **TypeScript 5**: Язык программирования с поддержкой статической типизации.
+- **Sass 1.77.8**: Препроцессор CSS для написания стилей.
+- **SwiperJS 11.1.9**: Библиотека для создания слайдеров.
+
+## TODO
+
+Формы, которые нужно доделать (можно найти в проекте cmnd + F - TODO):
+1. Форма обратной связи.
+2. Регистрационная форма.
+3. Форма входа.
+4. Форма подписки на новости.
+
+## Установка и Запуск
+
+### Предварительные требования
+
+Для запуска проекта необходимо иметь установленный Node.js и npm (или yarn).
+
+### Установка зависимостей
+
+```bash
+npm install
+```
+или
+```bash
+yarn install
+```
+
+### Запуск проекта в режиме разработки
 
 ```bash
 npm run dev
-# or
+```
+или
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Сборка проекта
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
+или
+```bash
+yarn build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Запуск собранного проекта
 
-## Learn More
+```bash
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Команды для проверки линтинга
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run lint
+```
+или
+```bash
+yarn lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Ссылка на проект
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Проект доступен по [ссылке](https://landing-henna-delta.vercel.app/).
