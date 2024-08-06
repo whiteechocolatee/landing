@@ -1,0 +1,28 @@
+.slider_navigation {
+  display: flex;
+  gap: 4px;
+  &_next,
+  &_prev {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s all;
+    svg {
+      transition: 0.3s all;
+    }
+    &:hover {
+      background-color: var(--blue);
+      svg {
+        path {
+          fill: var(--white);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,225 @@
+.dignities {
+  margin-top: 86px;
+  padding: 0 20px;
+  &__wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1792px;
+    padding-top: 64px;
+    padding-bottom: 72px;
+    border-radius: 64px;
+    background-color: var(--light-blue);
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_text {
+      font-size: 48px;
+      font-family: var(--font-title);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      span {
+        color: var(--blue);
+      }
+      &_first,
+      &_second {
+        display: flex;
+        gap: 10px;
+      }
+    }
+    &_first {
+      &_badge {
+        padding: 10px 16px;
+        max-width: 120px;
+        background-color: var(--white);
+        width: 100%;
+      }
+    }
+    &_second {
+      &_badge {
+        background-color: var(--white);
+        max-width: 133px;
+        padding: 9px 16px;
+        font-size: 14px;
+        font-family: var(--font-regular) !important;
+        text-transform: capitalize !important;
+        display: flex;
+        gap: 8px;
+        width: 100%;
+      }
+    }
+    &_subtitle {
+      font-size: 24px;
+      max-width: 550px;
+    }
+  }
+  &__cards {
+    display: flex;
+    gap: 24px;
+    margin-top: 60px;
+    position: relative;
+  }
+  &__card {
+    position: relative;
+    max-width: 628px;
+    width: 100%;
+    border: 1px solid rgba(117, 128, 153, 0.15);
+    box-shadow: 1px 1px 7px -2px rgba(0, 0, 0, 0.18);
+    border-radius: 24px;
+    padding-top: 43px;
+    padding-bottom: 44px;
+    padding-left: 30px;
+    &_pluses {
+      background-color: var(--white);
+      .dignities__card_badge {
+        background-color: var(--green);
+      }
+    }
+    &_minuses {
+      background-color: var(--gray);
+      .dignities__card_badge {
+        background-color: var(--light-red);
+      }
+      .dignities__card_list_item {
+        color: var(--slate-gray);
+      }
+    }
+    &_badge {
+      max-width: 254px;
+      width: 100%;
+      border-radius: 12px !important;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 20px;
+    }
+    &_list {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      list-style: none;
+      &_item {
+        svg {
+          flex-shrink: 0;
+        }
+        max-width: 482px;
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+    }
+    &_icon {
+      z-index: 5;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 49px;
+      padding: 12px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: var(--white);
+
+      &_wrapper {
+        border-radius: 50%;
+        background-color: var(--green);
+        width: 78px;
+        height: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  &__steps {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .dignities__card {
+    padding-right: 20px;
+  }
+  .dignities__title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dignities__title_text {
+    font-size: 24px;
+  }
+  .dignities__title_subtitle {
+    font-size: 16px;
+    max-width: 261px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dignities {
+    margin-top: 56px;
+  }
+  .dignities__card {
+    padding: 16px;
+  }
+  .dignities__card_list_item {
+    font-size: 16px;
+  }
+  .dignities__card_badge {
+    font-size: 16px;
+  }
+  .dignities__card_badge {
+    max-width: 214px;
+  }
+  .dignities__card_list {
+    margin-top: 16px;
+    gap: 16px;
+  }
+  .dignities__cards {
+    margin-top: 30px;
+  }
+  .dignities__steps {
+    margin-top: 60px;
+  }
+  .dignities__cards {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .dignities__card_icon {
+    width: 60px;
+    top: 47%;
+    height: 60px;
+  }
+  .dignities__card_icon_wrapper {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .dignities__card_minuses {
+    background-color: var(--white);
+  }
+  .dignities__card_minuses,
+  .dignities__card_list_item {
+    color: var(--black) !important;
+  }
+  .dignities__wrapper {
+    border-radius: 32px;
+    padding-bottom: 22px;
+  }
+}
