@@ -33,6 +33,7 @@ export const Prices = () => {
             <div className={styles.prices__cards}>
               {pricesChips.map((chip) => (
                 <div
+                  key={chip.img}
                   className={`${styles.prices__chip} ${
                     styles[chip.class]
                   }`}>
