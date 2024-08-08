@@ -56,26 +56,32 @@ export const ReviewsSlider = () => {
                   <span>{review.position}</span>
                 </h4>
               </div>
-              <div
+              {/* Если будут необходимы ссылки на ревью */}
+              {/* <div
                 className={
                   styles.prices__reviews_card_title_socials
                 }>
-                {review.socials.map((social, index) => (
-                  <a
-                    href={social.socialLink}
-                    key={index}
-                    className={
-                      styles.prices__reviews_card_title_social
-                    }>
-                    <Image
-                      src={social.socialSvg}
-                      alt={social.socialLink}
-                      width={16}
-                      height={16}
-                    />
-                  </a>
-                ))}
-              </div>
+                {review.socials &&
+                  review.socials.map((social, index) => {
+                    return (
+                      social && (
+                        <a
+                          href={social.socialLink}
+                          key={index}
+                          className={
+                            styles.prices__reviews_card_title_social
+                          }>
+                          <Image
+                            src={social.socialSvg}
+                            alt={`${review.name}'s ${social.socialName} profile`}
+                            width={16}
+                            height={16}
+                          />
+                        </a>
+                      )
+                    );
+                  })}
+              </div> */}
             </div>
             <div
               className={
