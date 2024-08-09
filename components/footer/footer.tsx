@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from './styles.module.scss';
 import { footerInfo, navItems } from '@/constants';
+import { Logo } from '../header/header';
 
 export const Footer = () => {
   return (
@@ -8,7 +9,7 @@ export const Footer = () => {
       <div
         className={`${styles.footer__wrapper} container`}>
         <div className={styles.footer__first}>
-          <Link href='/'>Logo</Link>
+          <Logo />
           <nav className={styles.footer__nav}>
             <ul className={styles.footer__list}>
               {navItems.map((item) => (

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { CustomButton } from '../button/custom-button';
 import styles from './styles.module.scss';
+import Image from 'next/image';
 
 interface NavItemProps {
   href: string;
@@ -119,8 +120,17 @@ const HeaderButtons: React.FC = () => (
   </div>
 );
 
-const Logo: React.FC = () => {
-  return <Link href='/'>LOGO</Link>;
+export const Logo: React.FC = () => {
+  return (
+    <Link href='/'>
+      <Image
+        src='/images/loog.png'
+        alt='logo'
+        width={50}
+        height={50}
+      />
+    </Link>
+  );
 };
 
 const BurgerButton: React.FC<BurgerButtonProps> = ({
