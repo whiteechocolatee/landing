@@ -2,6 +2,7 @@ import { Header } from '@/components/header/header';
 import type { Metadata } from 'next';
 import './globals.css';
 import { Footer } from '@/components/footer/footer';
+import Head from 'next/head';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <Head>
+        <script
+          src='https://cdn.pulse.is/livechat/loader.js'
+          data-live-chat-id='66bb66388f0e7d21950b076b'
+          async></script>
+      </Head>
       <body>
         <Header />
         <main>{children}</main>
