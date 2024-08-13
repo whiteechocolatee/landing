@@ -1,14 +1,9 @@
 export const companyNames = [
-  'MergeWave',
-  'Near',
-  'Avrora',
-  'PTN',
-  'Investman',
-  'Kaizen',
-  'QP Digital',
-  'MK',
-  'Unicorn Battle',
-  'Content Writing',
+  'IDN Play',
+  'GG Network',
+  'PokerMaster',
+  'Lianzhong',
+  'PPPpoker',
 ];
 
 export const navItems = [

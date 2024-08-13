@@ -118,7 +118,7 @@ export const StepSlider = () => {
           <p>Услугами</p>
           <p>легко</p>
           <p className={styles.steps_title_text_subtitle}>
-            Lorem ipsum dolor sit amet
+            доход уже в первые 24 часа
           </p>
         </h2>
       </div>

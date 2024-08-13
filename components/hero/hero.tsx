@@ -1,6 +1,8 @@
 import Image, { StaticImageData } from 'next/image';
+import React from 'react';
 
 import { CustomButton } from '@/components/button/custom-button';
+import { companyNames } from '@/constants';
 
 import styles from './styles.module.scss';
 
@@ -49,7 +51,7 @@ export const Hero = () => (
           </CustomButton>
           <div className={styles.hero__divider} />
           <p className={styles.hero__text}>
-            Lorem ipsum dolor sit amet consectetur.
+            Играют профессионалы, а зарабатываете Вы.
           </p>
         </div>
       </div>
@@ -64,6 +66,7 @@ export const Hero = () => (
         className={styles.hero__image_right}
       />
     </div>
+    <CompaniesList companyNames={companyNames} />
   </section>
 );
 
@@ -86,5 +89,24 @@ const ImageContainer = ({
       height={386}
       loading='lazy'
     />
+  </div>
+);
+
+interface CompaniesListProps {
+  companyNames: string[];
+}
+
+const CompaniesList = ({
+  companyNames,
+}: CompaniesListProps) => (
+  <div className={styles.hero__companies}>
+    {companyNames.map((company, index) => (
+      <React.Fragment key={company}>
+        <span>{company}</span>
+        {index < companyNames.length - 1 && (
+          <span> / </span>
+        )}
+      </React.Fragment>
+    ))}
   </div>
 );
