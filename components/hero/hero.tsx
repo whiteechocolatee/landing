@@ -19,7 +19,7 @@ export const Hero = () => (
             -
           </span>{' '}
           <TitleBadge classNames={styles.hero__title_badge}>
-            play ro earn
+            play to earn
           </TitleBadge>
           <p className={styles.hero__title_second}>
             Поддерживаем на старте

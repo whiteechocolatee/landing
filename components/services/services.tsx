@@ -14,7 +14,7 @@ const servicesBadges = [
     style: styles.services__badge_second,
   },
   {
-    text: '20 млн оборот',
+    text: '20 млн $ оборот',
     style: styles.services__badge_third,
   },
 ];
