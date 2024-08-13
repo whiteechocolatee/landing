@@ -121,16 +121,7 @@ const HeaderButtons: React.FC = () => (
 );
 
 export const Logo: React.FC = () => {
-  return (
-    <Link href='/'>
-      <Image
-        src='/images/loog.png'
-        alt='logo'
-        width={50}
-        height={50}
-      />
-    </Link>
-  );
+  return <Link href='/'>Logo</Link>;
 };
 
 const BurgerButton: React.FC<BurgerButtonProps> = ({
