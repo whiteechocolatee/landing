@@ -121,7 +121,7 @@ const HeaderButtons: React.FC = () => (
 );
 
 export const Logo: React.FC = () => {
-  return <Link href='/'>Logo</Link>;
+  return <Link href='/'>{/* LOGO PLACE */}</Link>;
 };
 
 const BurgerButton: React.FC<BurgerButtonProps> = ({
