@@ -16,16 +16,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <Head>
-        <script
-          src='https://cdn.pulse.is/livechat/loader.js'
-          data-live-chat-id='66bb66388f0e7d21950b076b'
-          async></script>
-      </Head>
       <body>
         <Header />
         <main>{children}</main>
         <Footer />
+        <script
+          src='https://cdn.pulse.is/livechat/loader.js'
+          data-live-chat-id='66bb66388f0e7d21950b076b'
+          async></script>
       </body>
     </html>
   );
