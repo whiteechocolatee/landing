@@ -1,14 +1,12 @@
-import React from 'react';
 import Image, { StaticImageData } from 'next/image';
 
 import { CustomButton } from '@/components/button/custom-button';
-import { companyNames } from '@/constants';
 
 import styles from './styles.module.scss';
 
+import clientsImg from '../../public/images/hero/hero_clients.png';
 import leftImg from '../../public/images/hero/hero_left_img.png';
 import rightImg from '../../public/images/hero/hero_right_img.png';
-import clientsImg from '../../public/images/hero/hero_clients.png';
 import { TitleBadge } from '../title-badge/title-badge';
 
 export const Hero = () => (
@@ -39,7 +37,7 @@ export const Hero = () => (
             priority
           />
           <p className={styles.hero__clients_text}>
-            1000+ Игроков
+            1000+ участников
           </p>
         </div>
         <div className={styles.hero__call_to_action}>
@@ -66,7 +64,6 @@ export const Hero = () => (
         className={styles.hero__image_right}
       />
     </div>
-    <CompaniesList companyNames={companyNames} />
   </section>
 );
 
@@ -89,24 +86,5 @@ const ImageContainer = ({
       height={386}
       loading='lazy'
     />
-  </div>
-);
-
-interface CompaniesListProps {
-  companyNames: string[];
-}
-
-const CompaniesList = ({
-  companyNames,
-}: CompaniesListProps) => (
-  <div className={styles.hero__companies}>
-    {companyNames.map((company, index) => (
-      <React.Fragment key={company}>
-        <span>{company}</span>
-        {index < companyNames.length - 1 && (
-          <span> / </span>
-        )}
-      </React.Fragment>
-    ))}
   </div>
 );

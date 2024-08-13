@@ -54,7 +54,7 @@
     border-radius: 16px;
   }
   &__badge {
-    padding: 18px 48px;
+    padding: 18px 36px;
     border-radius: 16px;
     border: 1px solid var(--slate-gray);
     background-color: var(--gray);
@@ -80,7 +80,7 @@
   &__card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
     background-color: var(--white);
     border-radius: 12px;
     padding: 16px;

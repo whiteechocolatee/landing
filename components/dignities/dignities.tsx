@@ -41,18 +41,6 @@ export const Dignities = () => {
                   styles.dignities__title_text_second
                 }>
                 <p>преимущества</p>
-                <TitleBadge
-                  classNames={
-                    styles.dignities__title_second_badge
-                  }>
-                  <Image
-                    src={'/images/faq/faq_player.png'}
-                    alt='dignities'
-                    width={32}
-                    height={32}
-                  />
-                  Игрок
-                </TitleBadge>
               </div>
             </h2>
             <p className={styles.dignities__title_subtitle}>

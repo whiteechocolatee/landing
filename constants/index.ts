@@ -189,7 +189,7 @@ export const whyUsSlides = [
   {
     img: '/images/whyus/whyus_slider.png',
     title:
-      'Азия — самые слабые и самые азартные игроки с самыми большими деньгами.',
+      'Азия — самые азартные игроки с самыми большими деньгами.',
   },
 ];
 
@@ -285,14 +285,10 @@ export const pricesChips = [
 export const footerInfo = [
   {
     title: 'Адрес',
-    content: 'г. Киев, ул. Льва Толстого 16',
-  },
-  {
-    title: 'Телефон',
-    content: '+38 (099) 999-99-99',
+    content: 'Wanchai, Hong Kong',
   },
   {
     title: 'E-mail',
-    content: 'Xxh2y@example.com',
+    content: 'contact@concordia-fp.com',
   },
 ];

@@ -6,15 +6,15 @@ import styles from './styles.module.scss';
 
 const servicesBadges = [
   {
-    text: '100 000+ клиентов',
+    text: '100 000+ игроков',
     style: styles.services__badge_first,
   },
   {
-    text: '10+ игроков',
+    text: '1000+ участников',
     style: styles.services__badge_second,
   },
   {
-    text: '15 million',
+    text: '20 млн оборот',
     style: styles.services__badge_third,
   },
 ];
