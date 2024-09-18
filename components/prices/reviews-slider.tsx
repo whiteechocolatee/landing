@@ -96,7 +96,7 @@ export const ReviewsSlider = () => {
                 className={
                   styles.prices__reviews_more_link
                 }>
-                читать больше
+                read more
               </a>
             </div>
           </SwiperSlide>

@@ -112,10 +112,10 @@ const NavItem: React.FC<
 const HeaderButtons: React.FC = () => (
   <div className={styles.header__buttons}>
     <CustomButton style='transparent' href='/sign-up'>
-      регистрация
+      Sign Up
     </CustomButton>
     <CustomButton style='primary' href='/sign-in'>
-      вход
+      Sign In
     </CustomButton>
   </div>
 );
@@ -123,7 +123,12 @@ const HeaderButtons: React.FC = () => (
 export const Logo: React.FC = () => {
   return (
     <Link href='/'>
-      <Image src={'/images/logoBlue.svg'} width={200} height={50} alt='logo' />
+      <Image
+        src={'/images/logoBlue.svg'}
+        width={200}
+        height={50}
+        alt='logo'
+      />
     </Link>
   );
 };

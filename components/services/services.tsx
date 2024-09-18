@@ -38,16 +38,16 @@ export const Services = () => {
           <div className={`${styles.container} container`}>
             <div className={styles.services__title}>
               <h2 className={styles.services__title_text}>
-                <span>Функции Нашего</span>
-                <span>Сервиса</span>
+                <span>Functions</span>
+                <span>of Our Service</span>
               </h2>
               <p
                 className={
                   styles.services__title_description
                 }>
-                Concordia-FP — это сервис, позволяющий
-                зарабатывать на онлайн покере, не играя в
-                покер.
+                Concordia-FP is a service that allows you to
+                to make money at online poker without
+                playing poker.
               </p>
             </div>
             <div className={styles.services__img}>
@@ -73,7 +73,7 @@ export const Services = () => {
                 classNames={styles.services__button}
                 style='primary'
                 href='/sign-up'>
-                Выбрать тариф
+                Choose a tariff
               </CustomButton>
             </div>
           </div>

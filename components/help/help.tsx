@@ -7,14 +7,14 @@ export const Help = () => {
       <div className={`${styles.help__wrapper} container`}>
         <h2 className={styles.help__title}>
           <div className={styles.help__title_text_first}>
-            <p>Нужна</p>
+            <p>Need</p>
             <TitleBadge
               classNames={styles.help__title_badge}>
-              ответим
+              We'll answer!
             </TitleBadge>
           </div>
           <div className={styles.help__title_text_second}>
-            <p>Консультация?</p>
+            <p>a Consultation?</p>
             <div className={styles.help__title_icons}>
               <span>
                 <svg

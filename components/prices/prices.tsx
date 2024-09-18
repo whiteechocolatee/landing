@@ -25,10 +25,10 @@ export const Prices = () => {
         <div className={styles.prices__wrapper}>
           <div className={`${styles.container} container`}>
             <h2 className={styles.prices__title}>
-              Наши Услуги
+              Our Services
             </h2>
             <p className={styles.prices__subtitle}>
-              Расширьте возможности с нашими решениями
+              Expand your possibilities with our solutions
             </p>
             <div className={styles.prices__cards}>
               {pricesChips.map((chip) => (
@@ -59,19 +59,19 @@ export const Prices = () => {
                   className={
                     styles.prices__reviews_title_first
                   }>
-                  <span>Реальные</span>
+                  <span>Real</span>
                   <TitleBadge
                     classNames={
                       styles.prices__reviews_title_badge
                     }>
-                    Реальные отзывы
+                    Real testimonials
                   </TitleBadge>
                 </div>
                 <div
                   className={
                     styles.prices__reviews_title_second
                   }>
-                  <span>клиенты</span>
+                  <span>customers</span>
                   <SliderNavigation />
                 </div>
               </h3>
@@ -81,7 +81,7 @@ export const Prices = () => {
                   className={
                     styles.prices__reviews_all_reviews
                   }>
-                  Все отзывы
+                  All reviews
                   <Image
                     className={
                       styles.prices__reviews_all_reviews_img

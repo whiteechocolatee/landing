@@ -16,7 +16,7 @@ export const Hero = () => (
     <div className={styles.container}>
       <div className={styles.hero__description}>
         <h2 className={styles.hero__title}>
-          Воплощаем Мечты{' '}
+          Making Dreams Come True{' '}
           <span className={styles.hero__title_divider}>
             -
           </span>{' '}
@@ -24,11 +24,11 @@ export const Hero = () => (
             play to earn
           </TitleBadge>
           <p className={styles.hero__title_second}>
-            Поддерживаем на старте
+            Supporting the start of work
           </p>
         </h2>
         <h4 className={styles.hero__subtitle}>
-          Риски минимизируем, потенциал максимизируем
+          Risks minimized, potential maximized
         </h4>
         <div className={styles.hero__clients}>
           <Image
@@ -39,7 +39,7 @@ export const Hero = () => (
             priority
           />
           <p className={styles.hero__clients_text}>
-            1000+ участников
+            1000+ participants
           </p>
         </div>
         <div className={styles.hero__call_to_action}>
@@ -47,11 +47,11 @@ export const Hero = () => (
             classNames={styles.hero__button}
             style='primary'
             href='/sign-up'>
-            Попробовать бесплатно
+            Try it for free
           </CustomButton>
           <div className={styles.hero__divider} />
           <p className={styles.hero__text}>
-            Играют профессионалы, а зарабатываете Вы.
+            Professionals play, and you earn.
           </p>
         </div>
       </div>

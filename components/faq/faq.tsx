@@ -42,7 +42,7 @@ export const Faq = () => {
             />
             <div className={styles.faq__title}>
               <h2 className={styles.faq__title_first}>
-                <span>Частые</span>
+                <span>Frequent</span>
                 <div className={styles.faq__title_player}>
                   <Image
                     src='/images/faq/faq_player.png'
@@ -58,7 +58,7 @@ export const Faq = () => {
                       className={
                         styles.faq__title_player_name
                       }>
-                      Игрок
+                      Player
                     </div>
                     <div
                       className={
@@ -76,7 +76,7 @@ export const Faq = () => {
                   width={80}
                   height={24}
                 />
-                <span>Вопросы</span>
+                <span>questions</span>
               </h2>
             </div>
           </div>

@@ -33,19 +33,19 @@ export const Dignities = () => {
                   />
                 </TitleBadge>
                 <p>
-                  <span>-</span>Наши
+                  <span>-</span>Our
                 </p>
               </div>
               <div
                 className={
                   styles.dignities__title_text_second
                 }>
-                <p>преимущества</p>
+                <p>advantages</p>
               </div>
             </h2>
             <p className={styles.dignities__title_subtitle}>
-              Обзор ключевых возможностей и преимуществ,
-              которые мы предлагаем
+              An overview of the key features and benefits
+              we offer
             </p>
           </div>
           <div className={styles.dignities__cards}>
@@ -74,7 +74,7 @@ export const Dignities = () => {
                     strokeLinejoin='round'
                   />
                 </svg>
-                Работая с нами
+                Working with us
               </TitleBadge>
               <div
                 className={styles.dignities__card_content}>
@@ -148,7 +148,7 @@ export const Dignities = () => {
                     strokeLinejoin='round'
                   />
                 </svg>
-                Работая без нас
+                Working without us
               </TitleBadge>
               <div
                 className={styles.dignities__card_content}>

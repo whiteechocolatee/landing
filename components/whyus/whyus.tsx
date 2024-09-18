@@ -18,7 +18,7 @@ export const WhyUs = () => {
               <h2
                 className={styles.whyus__slider_title_nav}>
                 <p>
-                  Почему Мы <span>/</span>
+                  Why are we <span>/</span>
                 </p>
                 <SliderNavigation />
               </h2>
@@ -26,7 +26,7 @@ export const WhyUs = () => {
                 className={
                   styles.whyus__slider_title_subtitle
                 }>
-                Почему именно мы и наши услуги
+                Why us and our services
               </p>
             </div>
             <WhyUsSlider slides={whyUsSlides} />
@@ -47,9 +47,9 @@ export const WhyUs = () => {
                     classNames={
                       styles.whyus__title_first_badge
                     }>
-                    ответим
+                    answer
                   </TitleBadge>
-                  На все
+                  all your
                 </div>
                 <div className={styles.whyus__title_second}>
                   <TitleBadge
@@ -65,7 +65,7 @@ export const WhyUs = () => {
                       height={34}
                     />
                   </TitleBadge>
-                  Ваши вопросы
+                  questions
                 </div>
               </h3>
               {/* // TODO: add form */}

@@ -59,7 +59,7 @@ export const StepSlider = () => {
     <div className={styles.stepslider}>
       <div className={styles.steps_title}>
         <h2 className={styles.steps_title_text}>
-          <p>Воспользуйтесь</p>
+          <p>Take advantage</p>
           <div className={styles.steps_title_icons}>
             <span>
               <svg
@@ -115,10 +115,10 @@ export const StepSlider = () => {
               </svg>
             </span>
           </div>
-          <p>Услугами</p>
-          <p>легко</p>
+          <p>of the Services</p>
+          <p>easily</p>
           <p className={styles.steps_title_text_subtitle}>
-            доход уже в первые 24 часа
+            income already in the first 24 hours
           </p>
         </h2>
       </div>
